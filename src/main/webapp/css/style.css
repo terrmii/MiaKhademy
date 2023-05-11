@@ -1,12 +1,14 @@
 /* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
 
 
-/* NAV */
-
+/* NAV */ 
 nav:hover{
     background-color: whitesmoke !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all ease-in-out 0.5s;
 }
+
+
 
 /* barra */
 

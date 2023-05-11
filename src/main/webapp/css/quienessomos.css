@@ -6,7 +6,7 @@ body{
     background:#F0F8FF;
     }
 .text-custom{
-    color: #801336 !important;
+    color: #3C2A21 !important;
     }
 
 .path { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: dash 3s linear forwards; animation-iteration-count: 1;animation-delay: 1s;}
@@ -40,8 +40,8 @@ button {
   }
   
   button {
-    --primary-color: #111;
-    --hovered-color: #c84747;
+    --primary-color: #3C2A21;
+    --hovered-color: #D5CEA3;
     position: relative;
     display: flex;
     font-weight: 600;
@@ -102,13 +102,27 @@ button {
 
 /* linea */
 hr.hr-primary {
-    border-top-color: #C72C41!important;
+    border-top-color: #3C2A21!important;
+    left: 50%;
 }
 
 p b{
-  color: #801336;
+  color: #3C2A21;
 }
 
 button a:hover{
   text-decoration: none;
+}
+
+/* Foto blanco y negro */
+
+.byn{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.byn:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.7s;
 }

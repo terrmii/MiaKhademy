@@ -1,9 +1,11 @@
-body {
-    margin-top: 20px;
+/* Tabla horarios */
+
+.afterav{
+    padding-top: 160px !important;
 }
 
 .schedule-table table thead tr {
-    background: #801336;
+    background: #3C2A21;
 }
 
 .schedule-table table thead th {
@@ -124,9 +126,9 @@ body {
 }
 
 .schedule-table table tbody td.day:hover {
-    background: #EE4540;
+    background: #D5CEA3;
     color: #fff;
-    border: 1px solid #C72C41;
+    border: 1px solid #E5E5CB;
 }
 
 @media screen and (max-width: 1199px) {

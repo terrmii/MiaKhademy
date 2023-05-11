@@ -14,7 +14,7 @@ body {
 }
 
 .login-box {
-    background: url(../img/login/fondoLogin.jpg);
+    background: url(../img/login/watercolor-texture-background.jpg);
     background-size: cover;
     background-position: center;
     padding: 50px;
@@ -31,10 +31,6 @@ body {
     text-align: center;
     color: black;
     margin-bottom: 50px;
-}
-
-.logo .logo-font {
-    color: #801336;
 }
 
 @media only screen and (max-width: 767px) {
@@ -76,12 +72,11 @@ body {
 }
 
 .login-form .btn.btn-primary {
-    background: #801336;
-    border-color: #2D132C;
+    background: #FF8400;
+    border-color: #4F200D;
 }
 .login-form .btn.btn-primary:hover {
-    background: #801336;
-    border-color: #801336;
+    background: #FFD93D;
 }
 
 .slider-feature-card {
@@ -136,7 +131,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #801336;
+    background-color: #FF8400;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -147,7 +142,7 @@ body {
 }
 
 .form-group div a:hover{
-    color: #801336;
+    color: #FF8400;
 }
 
 
@@ -167,7 +162,7 @@ body {
     left: 0;
   }
 .password a::before {
-    background-color: #801336;
+    background-color: #FF8400;
     height: 2px;
     bottom: 0;
     transform-origin: 100% 50%;
@@ -181,7 +176,7 @@ body {
     transform-origin: 100% 50%;
     transform: translate3d(200%, 0, 0);
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
-    color: #801336;
+    color: #FF8400;
   }
   
 .password a:hover::before {
@@ -201,12 +196,12 @@ body {
     transform: translate3d(-200%, 0, 0);
   }
 .password a{
-    color: #801336;
+    color: #FF8400;
 }
 
 /* Arreglar bug se quedaba en azul un momento al hacer hover */
 div.form-group span{
-    color: #801336;
+    color: #FF8400;
 }
 
 .textologin{

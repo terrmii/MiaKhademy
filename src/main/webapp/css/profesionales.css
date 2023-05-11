@@ -10,7 +10,7 @@ body{
     border-color: #fff !important;
 }
 hr.hr-primary {
-    border-top-color: #C72C41!important;
+    border-top-color: #3C2A21!important;
 }
 em {
     font-style: italic;
@@ -19,11 +19,11 @@ em {
     font-weight: 400 !important;
 }
 div a{
-    color: #801336;
+    color: #1A120B;
 }
 
 div a:hover{
-    color: #C72C41;
+    color: #D5CEA3;
 }
 
 *{
@@ -37,4 +37,8 @@ div a:hover{
     border-style: solid;
     border-radius: 50px;
     margin-bottom: 6px;
+}
+
+.afternav{
+    padding-top: 133px !important;
 }

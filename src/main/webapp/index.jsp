@@ -33,7 +33,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 			<div class="container">
 				<!-- Logo -->
-				<a class="navbar-brand" href="index.html"> 
+				<a class="navbar-brand" href="Inicio"> 
 					<img src="./img/logo/logoprueba.png" alt="" width="150" style="top: 0;">
 				</a>
 
@@ -44,7 +44,7 @@
 
 			<div class="navbar-collapse text-center collapse" id="myNavbar1">
 
-				<div lc-helper="shortcode" class="live-shortcode me-auto">
+				<div class="live-shortcode me-auto">
 					<ul id="menu-menu-1" class="navbar-nav me-auto mb-2 mb-md-0 navbar-nav ">
 
 						<!-- Link Horarios -->
@@ -91,10 +91,10 @@
 <div class="container py-5">
 	<div class="container-fluid p-0">
 		<div class="row g-0">
-			<div lc-helper="background" class="col-md-6 order-md-2 ps-4 d-flex" style="background-size: cover; background-position: center; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/inicio/libro.jpg'); background-attachment: fixed;">
+			<div class="col-md-6 order-md-2 ps-4 d-flex" style="background-size: cover; background-position: center; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/inicio/libro.jpg'); background-attachment: fixed;">
 				<div class="lc-block align-self-center text-light ms-4">
 					<!-- Texto dentro de la foto -->
-					<div editable="rich">
+					<div>
 						<h2 class="fw-bold display-1">Learn&nbsp;<br>Ikasi&nbsp;<br>Aprende.</h2>
 					</div>
 				</div>
@@ -102,19 +102,19 @@
 			<div class="col-md-6 order-md-1" style="padding:5vh 5vw">
 				<!-- 1er parrafo -->
 				<div class="lc-block mb-5">
-					<div editable="rich">
+					<div>
 						<p><strong>¡Bienvenidos a MiaKhademy, la academia de idiomas líder en el mercado! En nuestra academia, creemos que aprender un nuevo idioma puede ser una experiencia enriquecedora que no solo abre puertas para nuevas oportunidades laborales, sino que también permite a las personas conectarse con otras culturas y expandir sus horizontes.&nbsp;</strong></p>
 					</div>
 				</div>
 				<!-- 2do parrafo -->
 				<div class="lc-block text-secondary pb-4">
-					<div editable="rich">
+					<div>
 						<p><em>En MiaKhademy, nuestro objetivo es proporcionar una experiencia de aprendizaje personalizada para cada estudiante. Ofrecemos cursos de idiomas en una variedad de idiomas, incluyendo inglés, español, francés, portugues y euskera.&nbsp;</em></p>
 					</div>
 				</div>
 				<!-- 3er parrafo -->
 				<div class="lc-block text-secondary">
-					<div editable="rich">
+					<div>
 						<p>Ofrecemos una amplia gama de horarios de clases para satisfacer las necesidades de nuestros estudiantes ocupados. Con nuestra dedicación a la excelencia en la enseñanza de idiomas y nuestro enfoque en la personalización del aprendizaje, en MiaKhademy estamos comprometidos a brindar una experiencia de aprendizaje inigualable a nuestros estudiantes. ¡Únete a nosotros y comienza tu viaje hacia la fluidez hoy mismo!</p>
 					</div>
 				</div>
@@ -132,12 +132,12 @@
 
 				<!-- Horarios -->
 				<div class="lc-block">
-					<div editable="rich">
+					<div>
 						<h2 class="fw-bolder">Horarios</h2>
 					</div>
 				</div>
 				<div class="lc-block">
-					<div editable="rich">
+					<div>
 						<p>Lunes a Sabado: 09:30 – 19:30 <br>
 							Domingos y festivos cerrado</p>
 					</div>
@@ -145,25 +145,25 @@
 
 				<!-- Direccion -->
 				<div class="lc-block">
-					<div editable="rich">
+					<div >
 						<h2 class="fw-bolder">Dirección</h2>
 					</div>
 				</div>
 				<div class="lc-block">
-					<div editable="rich">
+					<div >
 						<p>Av. de la Zurriola, 3 &nbsp;&nbsp; <br>20002 San Sebastián, Gipuzkoa</p>
 					</div>
 				</div>
 
 				<!-- Numero telefonico -->
 				<div class="lc-block">
-					<div editable="rich">
+					<div >
 						<h2 class="fw-bolder">Numero telefónico</h2>
 					</div>
 				</div>
 
 				<div class="lc-block">
-					<div editable="rich">
+					<div >
 						<p>Fijo +34 943135090<br>Telefono Móvil 634857321</p>
 					</div>
 				</div>
@@ -172,8 +172,8 @@
 		</div>
 		<div class="col-lg-6">
 			<div class="lc-block">
-				<div class="ratio ratio-16x9" lc-helper="gmap-embed">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d725.6241422067593!2d-1.9777377803238374!3d43.32479707381636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d43.3247777!2d-1.9772801999999998!4m3!3m2!1d43.3247718!2d-1.9772788!5e0!3m2!1ses!2ses!4v1683548282472!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<div class="ratio ratio-16x9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d725.6241422067593!2d-1.9777377803238374!3d43.32479707381636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d43.3247777!2d-1.9772801999999998!4m3!3m2!1d43.3247718!2d-1.9772788!5e0!3m2!1ses!2ses!4v1683548282472!5m2!1ses!2ses" width="600" height="450" style="border:0;"></iframe>
 				</div>
 			</div><!-- /lc-block -->
 		</div>
@@ -187,25 +187,25 @@
 			<!-- Foto1 -->
 			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
 				<div class="lc-block">
-					<img class="img-fluid" loading="lazy" alt="Photo by Estúdio Bloom" src="img/inicio/foto1.jpg" sizes="(max-width: 1080px)" width="1080" height="768">
+					<img class="img-fluid" src="img/inicio/foto1.jpg" width="1080" height="768">
 				</div>
 			</div>
 			<!-- Foto2 -->
 			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
 				<div class="lc-block">
-					<img class="img-fluid" loading="lazy" alt="Photo by Dennis Klein" src="img/inicio/foto2.jpg" sizes="(max-width: 1080px)" width="1080" height="768">
+					<img class="img-fluid" src="img/inicio/foto2.jpg" width="1080" height="768">
 				</div> 
 			</div>
 			<!-- Foto3 -->
 			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
 				<div class="lc-block">
-					<img class="img-fluid" loading="lazy" alt="Photo by Louis Hansel" src="img/inicio/foto3.jpg	" sizes="(max-width: 1080px)" width="1080" height="768">
+					<img class="img-fluid" src="img/inicio/foto3.jpg" width="1080" height="768">
 				</div>
 			</div>
 			<!-- Foto4 -->
 			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
 				<div class="lc-block">
-					<img class="img-fluid" loading="lazy" alt="Photo by Roksolana Zasiadko" src="img/inicio/foto4.jpg" sizes="(max-width: 1080px)" width="1080" height="768">
+					<img class="img-fluid" src="img/inicio/foto4.jpg" width="1080" height="768">
 				</div>
 			</div>
 		</div>
@@ -225,7 +225,7 @@
 		<div class="col-md-6">
 			<div class="lc-block">
 				<!-- Bloque grande -->
-				<div editable="rich">
+				<div >
 
 					<h2>Nuestros servicios.</h2>
 
@@ -243,7 +243,7 @@
 			</div>
 			<div class="lc-block text-center">
 				<!-- Profesionales -->
-				<div editable="rich">
+				<div >
 
 					<h4>Profesionales cualificados</h4>
 
@@ -257,7 +257,7 @@
 			</div>
 			<div class="lc-block text-center">
 				<!-- Idiomas -->
-				<div editable="rich">
+				<div >
 
 					<h4>Variedad de idiomas</h4>
 
@@ -271,7 +271,7 @@
 			</div>
 			<div class="lc-block text-center">
 				<!-- Horarios -->
-				<div editable="rich">
+				<div >
 
 					<h4>Flexibilidad de horarios</h4>
 
@@ -285,7 +285,7 @@
 			</div>
 			<div class="lc-block text-center">
 				<!-- Tecnologia -->
-				<div editable="rich">
+				<div>
 
 					<h4>Tecnología de apoyo</h4>
 
@@ -383,6 +383,7 @@
 			<!-- Icono Linkedin -->
             <a href="https://www.linkedin.com/miakhademy/" class="text-white me-4" target="_blank">
             <i class="fab fa-linkedin"></i>
+            </a>
           </div>
         </div>
         <!-------------------- Fin Redes sociales ---------------->
@@ -401,7 +402,6 @@
       © 2023 Copyright: MiaKhademy.com</a>
   </div>
   <!-------------- Fin Copyright -------------->
-  </div>
 
 </footer>
 
