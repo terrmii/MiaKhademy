@@ -17,20 +17,18 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
 <!-- Letra -->
-<link rel="stylesheet"
-	href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
 
 <!-- Iconos -->
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <!-- Js -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script
-	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script
-	src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </head>
+
 <body>
       <!-- NAV --> 
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -136,7 +134,7 @@
 				<div class="col-md-12">
 					<nav style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 						<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-							<a class="nav-item nav-link active" id="nav-home-tab"
+							<a class="nav-item nav-link active maximizar" id="nav-home-tab"
 								data-toggle="tab" href="#nav-home" role="tab"
 								aria-controls="nav-home" aria-selected="true"> Profesores</a>
 							<!--  -->
@@ -166,6 +164,7 @@
 									</tr>
 								</thead>
 								<tbody>
+										<!-- Leer datos profesores -->
 									<c:forEach items="${profesores}" var="profesor">
 										<tr>
 											<td>${profesor.dni}</td>
