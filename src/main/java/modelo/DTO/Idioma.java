@@ -5,7 +5,6 @@ public class Idioma {
 	private String codigo_idioma, nombre, num_plazas;
 
 	public Idioma() {
-		super();
 	}
 
 	public Idioma(String codigo_idioma, String nombre, String num_plazas) {

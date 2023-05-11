@@ -2,6 +2,7 @@ package modelo.DAO;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 import modelo.DTO.Idioma;
@@ -24,12 +25,36 @@ public class ModeloIdioma {
 		return idiomas;
 	}
 
+	public static Idioma cargarIdioma(String codigo_idioma) {
+		Idioma idio = new Idioma();
+		
+		PreparedStatement st;
+		try {
+			st = Conector.conexion.prepareStatement("select * from idiomas where codigo_idioma = ?");
+			st.setString(1, codigo_idioma);
+			ResultSet r = st.executeQuery();
+			r.next();
+			
+			idio.setCodigo_idioma(r.getString(1));
+			idio.setNombre(r.getString(2));
+			idio.setNum_plazas(r.getString(3));
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		return idio;
+	}
+	
 	public static void insertarIdioma(Idioma idioma) {
 		try {
 			PreparedStatement st = Conector.conexion
-					.prepareStatement("insert into idiomas (nombre,num_plazas) values (?,?)");
-			st.setString(1, idioma.getNombre());
-			st.setString(2, idioma.getNum_plazas());
+					.prepareStatement("insert into idiomas (codigo, nombre, num_plazas) values (?,?,?)");
+			st.setString(1, idioma.getCodigo_idioma());
+			st.setString(2, idioma.getNombre());
+			st.setString(3, idioma.getNum_plazas());
 			st.execute();
 		} catch (Exception e) {
 		}

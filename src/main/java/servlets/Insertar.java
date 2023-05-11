@@ -52,6 +52,7 @@ public class Insertar extends HttpServlet {
 			break;
 		default:
 			Idioma i = new Idioma();
+			i.setCodigo_idioma(request.getParameter("codIdioma"));
 			i.setNombre(request.getParameter("nombre"));
 			i.setNum_plazas(request.getParameter("numPlazas"));
 			ModeloIdioma.insertarIdioma(i);

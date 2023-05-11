@@ -5,9 +5,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Bootstrap Navbar with Inline Login Form in Dropdown</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>MiaKhademy.play | Gestor Administrador</title>
+<link rel="shortcut icon" href="./img/logo/play/logo-no-background.png" type="image/x-icon">
 
 <!-- CSS externo -->
 <link rel="stylesheet" href="./css/play.css">
@@ -112,7 +112,7 @@
                 </ul> 
             </div>
             <!-- Icono login -->
-            <a href="login.html" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
+            <a href="Logout" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
                 <i class="fa-sharp fa-solid fa-user"></i>
             Log out</a>
 
@@ -173,16 +173,18 @@
 											<td>${profesor.num_telefono}</td>
 
 											<!-- actualizar y eliminar -->
-											<td><a
-												href="/MiaKhademia/Modificar?q=profesor&id=${profesor.dni}"><i
-													class="fa-regular fa-pen-to-square fa-lg"></i></a></td>
-											<td><a
-												href="/MiaKhademia/Eliminar?q=profesor&id=${profesor.dni}"><i
-													class="fa-solid fa-trash-can fa-lg"></i></a></td>
+											<td><a href="/MiaKhademia/Modificar?q=profesor&id=${profesor.dni}">
+												<i class="fa-regular fa-pen-to-square fa-lg"></i>
+												</a>
+											</td>
+											<td><a href="/MiaKhademia/Eliminar?q=profesor&id=${profesor.dni}">
+												<i class="fa-solid fa-trash-can fa-lg"></i></a>
+											</td>
 										</tr>
 									</c:forEach>
 								</tbody>
 							</table>
+							<!-- Boton anadir Profesores  -->
 							<div class="dropdown d-flex justify-content-center">
 								<button class="btn btn-secondary dropdown-toggle" type="button"
 									id="dropdownMenuButton" data-toggle="dropdown"
@@ -217,7 +219,7 @@
 							</div>
 						</div>
 
-
+						
 						<div class="tab-pane fade" id="nav-profile" role="tabpanel"
 							aria-labelledby="nav-profile-tab">
 							<table
@@ -250,6 +252,7 @@
 									</c:forEach>
 								</tbody>
 							</table>
+							<!-- Boton anadir Idiomas -->
 							<div class="dropdown d-flex justify-content-center">
 								<button class="btn btn-secondary dropdown-toggle" type="button"
 									id="dropdownMenuButton" data-toggle="dropdown"
@@ -259,6 +262,8 @@
 									<form action="/MiaKhademia/Insertar" method="Post">
 										<input type="text" value="idioma" name="tipo" class="d-none">
 
+										<input type="text" placeholder="Codigo Idioma" name="codIdioma"
+											class="d-block m-4" required="required">
 										<!--  -->
 										<input type="text" placeholder="Nombre idioma" name="nombre"
 											class="d-block m-4" required="required">

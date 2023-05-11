@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import modelo.DAO.ModeloIdioma;
 import modelo.DAO.ModeloProfesor;
 import modelo.DTO.Profesor;
 
@@ -36,6 +37,9 @@ public class Modificar extends HttpServlet {
 			break;
 
 		case "idioma":
+			/**
+			 *  request.setAttribute("idioma", ModeloIdioma.cargarIdiomas(request.getParameter("codigo_idioma")));
+			 */
 			break;
 
 		default:

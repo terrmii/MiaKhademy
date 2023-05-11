@@ -40,8 +40,8 @@ public class ModeloProfesor {
 			r.next();
 
 			prof.setDni(r.getString(1));
-			prof.setNombre_apellido(r.getString(3));
-			prof.setNum_telefono(r.getString(2));
+			prof.setNombre_apellido(r.getString(2));
+			prof.setNum_telefono(r.getString(3));
 			prof.setTitulacion(r.getString(4));
 
 		} catch (Exception e) {
