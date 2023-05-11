@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Homemade+Apple&family=Monoton&family=Mr+Dafoe&family=Parisienne&family=Pinyon+Script&family=Righteous&family=Rowdies:wght@300;400&family=Shrikhand&display=swap');
+
+body {
+    background: whitesmoke;
+    font-family: 'Rowdies', cursive !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+.login-box {
+    background: url(../img/login/fondoLogin.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin: 50px auto;
+    min-height: 700px;
+    -webkit-box-shadow: 0 2px 60px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Holtwood One SC', serif;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.logo .logo-font {
+    color: #801336;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        font-size: 34px;
+    }
+}
+
+.header-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-form .form-control {
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.login-form .form-group {
+    position: relative;
+}
+
+.login-form .form-group .forgot-password {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+}
+
+.login-form .btn {
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.login-form .btn.btn-primary {
+    background: #801336;
+    border-color: #2D132C;
+}
+.login-form .btn.btn-primary:hover {
+    background: #801336;
+    border-color: #801336;
+}
+
+.slider-feature-card {
+    background: #fff;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+}
+
+.slider-feature-card img {
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slider-feature-card h3,
+.slider-feature-card p {
+    margin-bottom: 30px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+}
+
+.form-group div a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Underline hover */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #2D132C;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #801336;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.form-group div a:hover{
+    color: #801336;
+}
+
+
+
+/* Hover contraseña */
+.password a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+  
+.password a::before,
+.password a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+.password a::before {
+    background-color: #801336;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+.password a::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #801336;
+  }
+  
+.password a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+  }
+.password a:hover::after {
+    transform: translate3d(0, 0, 0);
+  }
+  
+.password a span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+.password a:hover span {
+    transform: translate3d(-200%, 0, 0);
+  }
+.password a{
+    color: #801336;
+}
+
+/* Arreglar bug se quedaba en azul un momento al hacer hover */
+div.form-group span{
+    color: #801336;
+}
+
+.textologin{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

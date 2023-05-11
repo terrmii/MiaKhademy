@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: whitesmoke !important;
+}
+
+/* header static */
+
+.jumbotron{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/inicio/pexels-olia-danilevich-5088008.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 30px;
+  
+}
+
+/* nav */
+nav{
+  background: transparent !important;
+  font-weight: bold;
+  color: white;
+  transition: all ease-in-out 0.5s;
+}
+
+/* Boton mas informacion */
+
+.informacion{
+  background-color: #3C2A21 !important;
+  border-color: #1A120B !important;
+}
+
+/* Coleccion de fotos */
+
+.img-fluid{
+  filter: brightness(0.8);
+}

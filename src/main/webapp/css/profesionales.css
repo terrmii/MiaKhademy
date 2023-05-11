@@ -1,0 +1,40 @@
+body{
+    background-color:#eee;
+    margin-top:20px;
+}
+.border-5, .border-w-5 {
+    border-width: 5px !important;
+}
+.border-white {
+    border: 1px solid transparent;
+    border-color: #fff !important;
+}
+hr.hr-primary {
+    border-top-color: #C72C41!important;
+}
+em {
+    font-style: italic;
+}
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+div a{
+    color: #801336;
+}
+
+div a:hover{
+    color: #C72C41;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.banderas{
+    width: 23px;
+    height: 23px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-bottom: 6px;
+}

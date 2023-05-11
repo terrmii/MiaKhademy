@@ -1,0 +1,114 @@
+*{
+  scroll-behavior: smooth;
+}
+body{
+    margin-top:20px;
+    background:#F0F8FF;
+    }
+.text-custom{
+    color: #801336 !important;
+    }
+
+.path { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: dash 3s linear forwards; animation-iteration-count: 1;animation-delay: 1s;}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.dashed{
+  stroke-dasharray: 5,12;
+  
+}
+#arrow{animation: arrow 2s linear forwards; opacity:0;}
+@keyframes arrow {
+  to {
+    opacity: 1;
+  }
+}
+
+.flecha{
+    margin-left: 15%;
+}
+
+/* boton */
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+  }
+  
+  button {
+    --primary-color: #111;
+    --hovered-color: #c84747;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  button p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color)
+  }
+  
+  button::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  button p::before {
+    position: absolute;
+  /*   box-sizing: border-box; */
+    content: "Leer más";
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0s ease-out;
+  }
+  
+  button:hover::after {
+    width: 100%;
+  }
+  
+  button:hover p::before {
+    width: 100%;
+  }
+  
+  button:hover svg {
+    transform: translateX(4px);
+    color: var(--hovered-color)
+  }
+  
+  button svg {
+    color: var(--primary-color);
+    transition: 0.2s;
+    position: relative;
+    width: 15px;
+    transition-delay: 0.2s;
+  }
+
+/* linea */
+hr.hr-primary {
+    border-top-color: #C72C41!important;
+}
+
+p b{
+  color: #801336;
+}
+
+button a:hover{
+  text-decoration: none;
+}

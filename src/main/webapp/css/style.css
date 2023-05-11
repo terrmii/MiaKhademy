@@ -1,0 +1,33 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+
+/* NAV */
+
+nav:hover{
+    background-color: whitesmoke !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* barra */
+
+:root {
+    --shadow: #3C2A21;
+    --scrollbarBG: #eee;
+    --thumbBG: #644e43;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
+  }
+
+/* Footer */
+
+footer{
+	background-color: #3C2A21;
+}
