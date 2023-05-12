@@ -60,7 +60,7 @@
 						</li>
 
 						<!-- Link contacto -->
-						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738 fw-bold">
 							<a href="contactanos.jsp" class="nav-link ">Contacto</a>
 						</li>
 
@@ -68,8 +68,7 @@
 				</div>
 				<!-- Icono login -->
 				<a href="Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
-					<i class="fa-regular fa-user"></i>
-				Login</a>
+					<i class="fa-regular fa-user"></i> Intranet</a>
 
 				</div>
 			</div>

@@ -20,7 +20,6 @@ body{
 /* nav */
 nav{
   background: transparent !important;
-  font-weight: bold;
   color: white;
   transition: all ease-in-out 0.5s;
 }

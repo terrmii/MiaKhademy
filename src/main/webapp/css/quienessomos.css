@@ -30,6 +30,10 @@ body{
     margin-left: 15%;
 }
 
+.row .col-lg-6 a{
+	text-decoration: none;
+}
+
 /* boton */
 
 button {
@@ -39,7 +43,7 @@ button {
     background: none;
   }
   
-  button {
+button {
     --primary-color: #3C2A21;
     --hovered-color: #D5CEA3;
     position: relative;
@@ -48,16 +52,16 @@ button {
     font-size: 20px;
     gap: 0.5rem;
     align-items: center;
-  }
+}
   
-  button p {
+button p {
     margin: 0;
     position: relative;
     font-size: 20px;
     color: var(--primary-color)
-  }
+}
   
-  button::after {
+button::after {
     position: absolute;
     content: "";
     width: 0;
@@ -66,9 +70,9 @@ button {
     background: var(--hovered-color);
     height: 2px;
     transition: 0.3s ease-out;
-  }
+}
   
-  button p::before {
+button p::before {
     position: absolute;
   /*   box-sizing: border-box; */
     content: "Leer más";
@@ -77,41 +81,27 @@ button {
     color: var(--hovered-color);
     overflow: hidden;
     transition: 0s ease-out;
-  }
+}
   
-  button:hover::after {
+button:hover::after {
     width: 100%;
-  }
+}
   
-  button:hover p::before {
+button:hover p::before {
     width: 100%;
-  }
+}
   
-  button:hover svg {
+button:hover svg {
     transform: translateX(4px);
     color: var(--hovered-color)
-  }
+}
   
-  button svg {
+button svg {
     color: var(--primary-color);
     transition: 0.2s;
     position: relative;
     width: 15px;
     transition-delay: 0.2s;
-  }
-
-/* linea */
-hr.hr-primary {
-    border-top-color: #3C2A21!important;
-    left: 50%;
-}
-
-p b{
-  color: #3C2A21;
-}
-
-button a:hover{
-  text-decoration: none;
 }
 
 /* Foto blanco y negro */
@@ -127,3 +117,13 @@ button a:hover{
   filter: grayscale(0%);
 
 }
+
+/* Letra mayuscula */
+.drop_caps_1:first-letter{
+	color: var(--dark);
+	float: left;
+	font-size: 75px;
+	line-height: 60px; 
+	padding: 4px 8px 3px 0;
+	font-weight:700
+	}

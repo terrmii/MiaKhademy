@@ -8,11 +8,8 @@
 <title>MiaKHademy | Inicio</title>
 <link rel="shortcut icon" href="./img/logo/icono.png" type="image/x-icon">
 
-  <!-- Letra -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
-
-  <!-- Iconos -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ 	 <!-- Iconos -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 	<!-- CSS externo -->
 	<link rel="stylesheet" href="./css/style.css">
@@ -71,9 +68,7 @@
 				</div>
 				<!-- Icono login -->
 				<a href="Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
-					<i class="fa-regular fa-user"></i>
-				Login</a>
-
+					<i class="fa-regular fa-user"></i> Intranet</a>
 				</div>
 			</div>
 			<!-- FIN NAV -->
@@ -103,7 +98,7 @@
 				<!-- 1er parrafo -->
 				<div class="lc-block mb-5">
 					<div>
-						<p><strong>¡Bienvenidos a MiaKhademy, la academia de idiomas líder en el mercado! En nuestra academia, creemos que aprender un nuevo idioma puede ser una experiencia enriquecedora que no solo abre puertas para nuevas oportunidades laborales, sino que también permite a las personas conectarse con otras culturas y expandir sus horizontes.&nbsp;</strong></p>
+						<p><strong>¡Bienvenidos a Mia<b style = "color: #3C2A21">Khademy</b>, la academia de idiomas líder en el mercado! En nuestra academia, creemos que aprender un nuevo idioma puede ser una experiencia enriquecedora que no solo abre puertas para nuevas oportunidades laborales, sino que también permite a las personas conectarse con otras culturas y expandir sus horizontes.&nbsp;</strong></p>
 					</div>
 				</div>
 				<!-- 2do parrafo -->

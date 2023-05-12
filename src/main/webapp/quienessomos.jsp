@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MiaKhademia | ¿Quienes somos?</title>
-<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="./img/logo/icono.png" type="image/x-icon">
 
  <!-- Iconos -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -53,7 +53,7 @@
               </li>
   
               <!-- Link quienes somos -->
-              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738 fw-bold">
                 <a href="quienessomos.jsp" class="nav-link ">¿Quienes somos?</a>
               </li>
   
@@ -66,9 +66,7 @@
           </div>
           <!-- Icono login -->
           <a href="Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
-            <i class="fa-regular fa-user"></i>
-          Login</a>
-  
+				<i class="fa-regular fa-user"></i> Intranet</a>
           </div>
         </div>
         <!-- FIN NAV -->
@@ -80,6 +78,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-4 pt-2 mt-sm-0 opt-sm-0">
                     <div class="row align-items-center">
+                    
+                    <!-- Profe francesa -->
                         <div class="col-lg-6 col-md-6 col-6">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 mt-4 pt-2">
@@ -88,23 +88,10 @@
                                         <div class="img-overlay bg-dark"></div>
                                     </div>
                                 </div>
-                                <!--end col-->
-
-                                <div class="col-12">
-                                    <div class="mt-4 pt-2 text-right">
-                                        <button>
-                                            <a href="#leermas" style="text-decoration: none;"><p>Leer más</p></a>
-                                            <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>
                             </div>
-                            <!--end row-->
                         </div>
-                        <!--end col-->
-
+						
+						<!-- Foto alumna primaria -->
                         <div class="col-lg-6 col-md-6 col-6">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12">
@@ -113,23 +100,18 @@
                                         <div class="img-overlay bg-dark"></div>
                                     </div>
                                 </div>
-                                <!--end col-->
 
+								<!-- Foto niña estudiando -->
                                 <div class="col-lg-12 col-md-12 mt-4 pt-2">
                                     <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
                                         <img src="img/quienessomos/alumnaenaccion.jpg" class="img-fluid" alt="Image" />
                                         <div class="img-overlay bg-dark"></div>
                                     </div>
                                 </div>
-                                <!--end col-->
                             </div>
-                            <!--end row-->
                         </div>
-                        <!--end col-->
                     </div>
-                    <!--end row-->
                 </div>
-                <!--end col-->
 
                 <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
                     <div class="section-title ml-lg-5">
@@ -144,7 +126,7 @@
                             <div class="col-lg-6 mt-4 pt-2">
                                 <div class="media align-items-center rounded shadow p-3">
                                     <i class="fas fa-map-marked"></i>
-                                    <a href="https://www.google.es/maps/dir//43.3247718,-1.9772788/@43.324654,-1.9773942,21z?hl=es" class="text-dark fw-bold" target="_blank">Donde estamos.</a>
+                                    <a href="https://www.google.es/maps/dir//43.3247718,-1.9772788/@43.324654,-1.9773942,21z?hl=es" class="text-dark fw-bold" target="_blank">Donde estamos</a>
                                 </div>
                             </div>
                             <div class="col-lg-6 mt-4 pt-2">
@@ -168,59 +150,51 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
             </div>
-            <!--enr row-->
 
         </div>
-
-        
-
-        <style>
-        .drop_caps_1:first-letter{color: var(--dark);float: left;font-size: 75px;line-height: 60px; padding: 4px 8px 3px 0;font-weight:700}
-        </style>
+		
   
+  		<!-- Texto foto blanco y negro derecha -->
         <div class="container py-5">
           <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-7 align-self-center">
               <div class="lc-block drop_caps_1">
-                <div editable="rich">
+                <div>
                   <p>Desde nuestra fundación, en MiaKhademy nos hemos destacado por ofrecer un enfoque educativo personalizado y flexible que se adapte a las necesidades de nuestros estudiantes. Ofreciendo una amplia gama de idiomas y con un equipo de profesionales altamente calificados, hemos conseguido convertirnos en una referencia en la enseñanza de idiomas.</p>
                   <p>Los programas de enseñanza están diseñados para ofrecer una experiencia de aprendizaje dinámica e interactiva, combinando tecnología y métodos pedagógicos tradicionales para que los estudiantes puedan aprender a su propio ritmo y de manera efectiva. Además, nuestra academia cuenta con una plataforma en línea donde los estudiantes pueden acceder a recursos educativos y mantenerse en contacto con sus profesores. Todo esto se traduce en una experiencia educativa enriquecedora y emocionante que permite a los estudiantes alcanzar sus objetivos personales y profesionales con éxito.&nbsp;</p>
-        
                 </div>
               </div>
             </div>
             <div class="col-lg-5 align-self-center">
               <div class="lc-block">
-                <img class="img-fluid byn" src="img/quienessomos/blancoynegro.jpg" alt="Photo by Mincho Kavaldzhiev">
+                <img class="img-fluid byn" src="img/quienessomos/blancoynegro.jpg" alt="Photo alumnos blanco y negro">
               </div>
             </div>
           </div>
         </div>
-        
   
-
+		<!-- Frase motivadora -->
         <div class="container py-5 text-center">
           <div class="row">
             <div class="col-md-8 offset-md-2 px-4">
               <div class="lc-block mb-4">
-                <div editable="rich">
+                <div>
                   <h2>"La educación es el arma más poderosa que puedes usar para cambiar el mundo."</h2>
                 </div>
               </div>
               <div class="lc-block mb-4">
-                <div editable="rich">
+                <div>
                   <p>La frase ha sido ampliamente difundida y popularizada por su mensaje poderoso y optimista, que inspira a las personas a creer en el poder del conocimiento y la educación para crear un cambio positivo en el mundo.&nbsp;</p>
                 </div>
               </div>
               <div class="lc-block" style="letter-spacing:5px">
                 <blockquote class="blockquote ">
-                  <p editable="inline" class="mb-0"><b>- Nelson Mandela</b></p>
+                  <p class="mb-0"><b>- Nelson Mandela</b></p>
                 </blockquote>
               </div>
               <div class="lc-block text-secondary">
-                <div editable="rich">
+                <div>
                   <p>Premio Nobel de la Paz</p>
                 </div>
               </div> 
@@ -334,7 +308,6 @@
               © 2023 Copyright: MiaKhademy.com</a>
           </div>
           <!-------------- Fin Copyright -------------->
-          </div>
 
         </footer>
 </body>

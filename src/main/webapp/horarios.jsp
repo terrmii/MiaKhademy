@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>MiaKHademy | Horarios</title>
-<link rel="icon" href="./img/logo/logo-no-background.png" type="image/png"></link>
+<link rel="shortcut icon" href="./img/logo/icono.png" type="image/x-icon">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,7 +46,7 @@
                 <ul id="menu-menu-1" class="navbar-nav me-auto mb-2 mb-md-0 navbar-nav ">
 
                     <!-- Link Horarios -->
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-32739">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-32739 fw-bold">
                         <a href= "horarios.jsp" class="nav-link">Horarios</a>
                     </li>
 
@@ -69,8 +69,7 @@
             </div>
             <!-- Icono login -->
             <a href="Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
-                <i class="fa-regular fa-user"></i>
-            Login</a>
+				<i class="fa-regular fa-user"></i> Intranet</a>
 
             </div>
         </div>
