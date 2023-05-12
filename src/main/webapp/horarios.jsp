@@ -27,13 +27,13 @@
 </head>
 
 <body>
-      <!-- NAV -->  
+      <!-- NAV --> 
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-           <!-- Logo -->
-				<a class="navbar-brand" href="Inicio"> 
-					<img src="./img/logo/logoprueba.png" alt="" width="150" style="top: 0;">
-				</a>
+            <!-- Logo -->
+            <a class="navbar-brand" href="Inicio"> 
+                <img src="./img/logo/logo-no-background.png" alt="" width="150" style="top: 0;">
+            </a>
 
             <!-- Boton pantalla pequeña -->
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar1" aria-controls="myNavbar1" aria-expanded="false" aria-label="Toggle navigation"> 
@@ -42,7 +42,7 @@
 
         <div class="navbar-collapse text-center collapse" id="myNavbar1">
 
-            <div class="live-shortcode me-auto">
+            <div lc-helper="shortcode" class="live-shortcode me-auto">
                 <ul id="menu-menu-1" class="navbar-nav me-auto mb-2 mb-md-0 navbar-nav ">
 
                     <!-- Link Horarios -->
@@ -68,7 +68,7 @@
                 </ul> 
             </div>
             <!-- Icono login -->
-            <a href="/MiaKhademia/Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
+            <a href="Inicio" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
                 <i class="fa-regular fa-user"></i>
             Login</a>
 
@@ -85,7 +85,7 @@
                 <h2 class="display-18 display-md-16 display-lg-14 mb-0" style="
                 color: #D5CEA3;
                 font: italic bold 100px Georgia, Serif;
-                text-shadow: -4px 3px 0 #E5E5CB, -14px 7px 0 #0a0e27; "><b>HORARIOS</b></h2>
+                text-shadow: -4px 3px 0 #E5E5CB, -14px 7px 0 #0a0e27; "><b>HORARIOS</b></span></h2>
             </div>
             <br>    
             <div class="row">
@@ -360,7 +360,7 @@
                 <!-- Link inicio -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                    <a href="index.html" class="text-white" style="text-decoration: none;">Inicio</a>
+                    <a href="Inicio" class="text-white" style="text-decoration: none;">Inicio</a>
                     </h6>
                 </div>
         
@@ -368,28 +368,28 @@
                 <!-- Link horarios -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                    <a href="#" class="text-white" style="text-decoration: none;">Horarios</a>
+                    <a href="horarios.jsp" class="text-white" style="text-decoration: none;">Horarios</a>
                     </h6>
                 </div>
         
                 <!-- Link Profesorado -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                    <a href="profesionales.html" class="text-white" style="text-decoration: none;">Profesorado</a>
+                    <a href="profesionales.jsp" class="text-white" style="text-decoration: none;">Profesorado</a>
                     </h6>
                 </div>
         
                 <!-- Link quienes somos -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                    <a href="quienessomos.html" class="text-white" style="text-decoration: none;">¿Quienes somos?</a>
+                    <a href="quienessomos.jsp" class="text-white" style="text-decoration: none;">¿Quienes somos?</a>
                     </h6>
                 </div>
         
                 <!-- Link contactanos -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                    <a href="contactanos.html" class="text-white" style="text-decoration: none;">Contactanos</a>
+                    <a href="contactanos.jsp" class="text-white" style="text-decoration: none;">Contactanos</a>
                     </h6>
                 </div>
         
@@ -437,6 +437,7 @@
                     <!-- Icono Linkedin -->
                     <a href="https://www.linkedin.com/miakhademy/" class="text-white me-4" target="_blank">
                     <i class="fab fa-linkedin"></i>
+                    </a>
                     </div>
                 </div>
                 <!-------------------- Fin Redes sociales ---------------->

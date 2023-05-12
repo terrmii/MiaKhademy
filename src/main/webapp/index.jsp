@@ -34,7 +34,7 @@
 			<div class="container">
 				<!-- Logo -->
 				<a class="navbar-brand" href="Inicio"> 
-					<img src="./img/logo/logoprueba.png" alt="" width="150" style="top: 0;">
+					<img src="./img/logo/logo-no-background.png" alt="" width="150" style="top: 0;">
 				</a>
 
 				<!-- Boton pantalla pequeña -->
@@ -306,7 +306,7 @@
 		<!-- Link inicio -->
         <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
-            <a href="index.html" class="text-white" style="text-decoration: none;">Inicio</a>
+            <a href="Inicio" class="text-white" style="text-decoration: none;">Inicio</a>
           </h6>
         </div>
  
@@ -314,28 +314,28 @@
 		<!-- Link horarios -->
         <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
-            <a href="#" class="text-white" style="text-decoration: none;">Horarios</a>
+            <a href="horarios.jsp" class="text-white" style="text-decoration: none;">Horarios</a>
           </h6>
         </div>
 
         <!-- Link Profesorado -->
         <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
-            <a href="profesionales.html" class="text-white" style="text-decoration: none;">Profesorado</a>
+            <a href="profesionales.jsp" class="text-white" style="text-decoration: none;">Profesorado</a>
           </h6>
         </div>
 
         <!-- Link quienes somos -->
         <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
-            <a href="quienessomos.html" class="text-white" style="text-decoration: none;">¿Quienes somos?</a>
+            <a href="quienessomos.jsp" class="text-white" style="text-decoration: none;">¿Quienes somos?</a>
           </h6>
         </div>
 
         <!-- Link contactanos -->
         <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
-            <a href="contactanos.html" class="text-white" style="text-decoration: none;">Contactanos</a>
+            <a href="contactanos.jsp" class="text-white" style="text-decoration: none;">Contactanos</a>
           </h6>
         </div>
 
@@ -398,7 +398,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
 
-    <a class="text-white" href="index.html" style="text-decoration: none;">
+    <a class="text-white" href="Inicio" style="text-decoration: none;">
       © 2023 Copyright: MiaKhademy.com</a>
   </div>
   <!-------------- Fin Copyright -------------->
