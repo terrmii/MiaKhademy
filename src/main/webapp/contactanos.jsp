@@ -67,7 +67,7 @@
 					</ul> 
 				</div>
 				<!-- Icono login -->
-				<a href="/MiaKhademia/Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
+				<a href="Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
 					<i class="fa-regular fa-user"></i>
 				Login</a>
 

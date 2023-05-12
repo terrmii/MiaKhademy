@@ -28,7 +28,7 @@
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
           <!-- Logo -->
-          <a class="navbar-brand" href="index.html"> 
+          <a class="navbar-brand" href="Inicio"> 
             <img src="img/logo/logo-no-background.png" alt="" width="150" style="top: 0;">
           </a>
   
@@ -65,7 +65,7 @@
             </ul> 
           </div>
           <!-- Icono login -->
-          <a href="login.html" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
+          <a href="Login" class="nav-item nav-link" style="color: rgba(0, 0, 0, 0.719);">
             <i class="fa-regular fa-user"></i>
           Login</a>
   
