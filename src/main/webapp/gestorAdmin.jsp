@@ -33,6 +33,10 @@
 	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script
 	src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+	crossorigin="anonymous"></script>
 
 </head>
 
@@ -41,7 +45,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 		<div class="container">
 			<!-- Logo -->
-			<a class="navbar-brand" href="index.html"> <img
+			<a class="navbar-brand" href="Inicio"> <img
 				src="img/logo/play/logo-no-background.png" alt="" width="150"
 				style="top: 0;">
 			</a>
@@ -150,7 +154,7 @@
 						<!-- Link pagina principal -->
 						<li
 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
-							<a href="index.html" target="_blank" class="nav-link ">Pagina
+							<a href="Inicio" target="_blank" class="nav-link ">Pagina
 								principal</a>
 						</li>
 
@@ -210,6 +214,12 @@
 									</tr>
 								</thead>
 								<tbody>
+									<!-- 
+							<button type="button" class="btn btn-primary" data-toggle="modal"
+								data-target="#exampleModal">Launch demo modal</button>
+
+ -->
+
 									<!-- Leer datos profesores -->
 									<c:forEach items="${profesores}" var="profesor">
 										<tr>
@@ -219,22 +229,26 @@
 											<td>${profesor.num_telefono}</td>
 
 											<!-- actualizar y eliminar -->
-											<td><a data-toggle="modal" data-target="#exampleModal">
-													<i class="fa-regular fa-pen-to-square fa-lg"></i>
-											</a></td>
+											<td>
+												<!-- Button trigger modal -->
+												<button type="button" data-bs-toggle="modal"
+													data-bs-target="#${profesor.dni}" style="border-radius: 10px">
+													<i class="fa-solid fa-pen"></i>
+												</button>
+											</td>
 											<td><a
 												href="/MiaKhademia/Eliminar?q=profesor&id=${profesor.dni}">
 													<i class="fa-solid fa-trash-can fa-lg"></i>
 											</a></td>
 										</tr>
 										<!-- Modal -->
-										<div class="modal fade" id="exampleModal" tabindex="-1"
-											role="dialog" aria-labelledby="exampleModalLabel"
+										<div class="modal fade" id="${profesor.dni}" tabindex="-1"
+											role="dialog" aria-labelledby="label${profesor.dni}"
 											aria-hidden="true">
 											<div class="modal-dialog" role="document">
 												<div class="modal-content">
 													<div class="modal-header">
-														<h5 class="modal-title" id="exampleModalLabel">Modal
+														<h5 class="modal-title" id="label${profesor.dni}">Modal
 															title</h5>
 														<button type="button" class="close" data-dismiss="modal"
 															aria-label="Close">
