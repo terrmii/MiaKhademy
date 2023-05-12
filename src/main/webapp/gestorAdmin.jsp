@@ -232,7 +232,8 @@
 											<td>
 												<!-- Button trigger modal -->
 												<button type="button" data-bs-toggle="modal"
-													data-bs-target="#${profesor.dni}" style="border-radius: 10px">
+													data-bs-target="#${profesor.dni}"
+													style="border-radius: 10px">
 													<i class="fa-solid fa-pen"></i>
 												</button>
 											</td>
@@ -311,12 +312,12 @@
 											required="required">
 
 										<!--  -->
-										<input type="text" placeholder="Número de teléfono"
-											name="num_telefono" class="d-block m-4" required="required">
-
-										<!--  -->
 										<input type="text" placeholder="Titulación en el idioma"
 											name="titulacion" class="d-block m-4" required="required">
+
+										<!--  -->
+										<input type="text" placeholder="Número de teléfono"
+											name="num_telefono" class="d-block m-4" required="required">
 
 										<!--  -->
 										<input type="submit" value="insertar"
