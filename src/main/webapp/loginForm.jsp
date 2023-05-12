@@ -32,6 +32,10 @@
                     <div class="col-sm-6">
                         <br>
                         <h3 class="header-title">LOGIN</h3>
+                        
+                        <!-- Mensaje de error -->
+                        <p class= "text-center text-danger" >${mensaje}</p>
+                        
                         <form class="login-form" action="Login" method = "post">
                             <div class="form-group textologin">
                                 <input type="text" class="form-control" placeholder="Usuario" name="username">

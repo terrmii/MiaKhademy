@@ -154,3 +154,11 @@ td{
     background-color: var(--thumbBG);
     box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
   }
+
+  
+  .caret-off::before {
+    display: none !important;
+}
+.caret-off::after {
+    display: none !important;
+}

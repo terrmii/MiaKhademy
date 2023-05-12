@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="f" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -13,7 +14,6 @@
 
 <!-- CSS externo -->
 <link rel="stylesheet" href="./css/play.css">
-<link rel="stylesheet" href="./css/gestorAdmin.css">
 
 <!-- Bootstrap -->
 <link rel="stylesheet"
@@ -34,9 +34,7 @@
 <script
 	src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-	crossorigin="anonymous"></script>
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -60,7 +58,7 @@
 
 			<div class="navbar-collapse text-center collapse" id="myNavbar1">
 
-				<div lc-helper="shortcode" class="live-shortcode me-auto">
+				<div class="live-shortcode me-auto">
 					<ul id="menu-menu-1"
 						class="navbar-nav me-auto mb-2 mb-md-0 navbar-nav ">
 
@@ -215,10 +213,10 @@
 								</thead>
 								<tbody>
 									<!-- 
-							<button type="button" class="btn btn-primary" data-toggle="modal"
-								data-target="#exampleModal">Launch demo modal</button>
-
- -->
+								<button type="button" class="btn btn-primary" data-toggle="modal"
+									data-target="#exampleModal">Launch demo modal</button>
+	
+	 -->
 
 									<!-- Leer datos profesores -->
 									<c:forEach items="${profesores}" var="profesor">
@@ -249,12 +247,9 @@
 											<div class="modal-dialog" role="document">
 												<div class="modal-content">
 													<div class="modal-header">
-														<h5 class="modal-title" id="label${profesor.dni}">Modal
-															title</h5>
-														<button type="button" class="close" data-dismiss="modal"
-															aria-label="Close">
-															<span aria-hidden="true">&times;</span>
-														</button>
+														<!-- Nombre modal -->
+														<h5 class="modal-title" id="label${profesor.dni}">Modificar
+															datos</h5>
 													</div>
 													<div class="modal-body">
 														<form action="Modificar" method="post">
@@ -265,25 +260,22 @@
 																hidden="hidden">
 															<!--  -->
 															<input type="text" value="${profesor.dni}" name="dni"
-																disabled="disabled" class="d-block">
+																disabled="disabled" class="d-block m-2">
 															<!--  -->
 															<input type="text" value="${profesor.nombre_apellido}"
-																name="nombre_apellido" class="d-block">
+																name="nombre_apellido" class="d-block m-2">
 															<!--  -->
 															<input type="text" value="${profesor.titulacion}"
-																name="titulacion" class="d-block">
+																name="titulacion" class="d-block m-2">
 															<!--  -->
 															<input type="text" value="${profesor.num_telefono}"
-																name="num_telefono" class="d-block">
+																name="num_telefono" class="d-block m-2">
+															<hr>
 															<!--  -->
-															<input type="submit" value="Modificar">
+															<input type="submit" value="Modificar"
+																class="float-end btn btn-secondary"
+																style="background-color: #FF8400; border-color: #4F200D;">
 														</form>
-													</div>
-													<div class="modal-footer">
-														<button type="button" class="btn btn-secondary"
-															data-dismiss="modal">Close</button>
-														<button type="button" class="btn btn-primary">Save
-															changes</button>
 													</div>
 												</div>
 											</div>
@@ -293,17 +285,21 @@
 							</table>
 
 							<!-- Boton anadir Profesores  -->
-							<div class="dropdown d-flex justify-content-center">
-								<button class="btn btn-secondary dropdown-toggle" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown"
-									aria-haspopup="true" aria-expanded="false">Insertar</button>
+							<div class="dropdown">
+								<button
+									class="btn dropdown-toggle float-end caret-off dropdown-toggle-split"
+									type="button" id="dropdownMenuButton" data-toggle="dropdown"
+									aria-haspopup="true" aria-expanded="false"
+									style="background-color: #FF8400; width: 38px; heigth: 38px;">
+									<i class="fa-sharp fa-solid fa-plus" style="color: white;"></i>
+								</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 									<!-- Formulario de inserción de datos -->
 									<form action="/MiaKhademia/Insertar" method="Post">
 										<input type="text" value="profesor" name="tipo" class="d-none">
 
 										<!--  -->
-										<input type="text" placeholder="dni" name="dni"
+										<input type="text" placeholder="Dni" name="dni"
 											class="d-block m-4" required="required">
 
 										<!--  -->
@@ -320,7 +316,7 @@
 											name="num_telefono" class="d-block m-4" required="required">
 
 										<!--  -->
-										<input type="submit" value="insertar"
+										<input type="submit" value="Insertar"
 											class="d-flex justify-content-center m-4">
 									</form>
 								</div>
@@ -361,10 +357,14 @@
 								</tbody>
 							</table>
 							<!-- Boton anadir Idiomas -->
-							<div class="dropdown d-flex justify-content-center">
-								<button class="btn btn-secondary dropdown-toggle" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown"
-									aria-haspopup="true" aria-expanded="false">Insertar</button>
+							<div class="dropdown">
+								<button
+									class="btn dropdown-toggle float-end caret-off dropdown-toggle-split"
+									type="button" id="dropdownMenuButton" data-toggle="dropdown"
+									aria-haspopup="true" aria-expanded="false"
+									style="background-color: #FF8400; width: 38px; heigth: 38px;">
+									<i class="fa-sharp fa-solid fa-plus" style="color: white;"></i>
+								</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 									<!-- Formulario de inserción de datos -->
 									<form action="/MiaKhademia/Insertar" method="Post">
@@ -381,7 +381,7 @@
 											class="d-block m-4" required="required">
 
 										<!--  -->
-										<input type="submit" value="insertar"
+										<input type="submit" value="Insertar"
 											class="d-flex justify-content-center m-4">
 									</form>
 								</div>
@@ -420,10 +420,14 @@
 									</c:forEach>
 								</tbody>
 							</table>
-							<div class="dropdown d-flex justify-content-center">
-								<button class="btn btn-secondary dropdown-toggle" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown"
-									aria-haspopup="true" aria-expanded="false">Insertar</button>
+							<div class="dropdown">
+								<button
+									class="btn dropdown-toggle float-end caret-off dropdown-toggle-split"
+									type="button" id="dropdownMenuButton" data-toggle="dropdown"
+									aria-haspopup="true" aria-expanded="false"
+									style="background-color: #FF8400; width: 38px; heigth: 38px;">
+									<i class="fa-sharp fa-solid fa-plus" style="color: white;"></i>
+								</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 									<!-- Formulario de inserción de datos -->
 									<form action="/MiaKhademia/Insertar" method="Post">
@@ -445,7 +449,7 @@
 											name="horario" class="d-block m-4">
 
 										<!--  -->
-										<input type="submit" value="insertar"
+										<input type="submit" value="Insertar"
 											class="d-flex justify-content-center m-4">
 									</form>
 								</div>
