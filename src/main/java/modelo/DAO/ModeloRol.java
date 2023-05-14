@@ -6,6 +6,12 @@ import java.sql.ResultSet;
 import modelo.DTO.Rol;
 
 public class ModeloRol {
+	
+	/**
+	 * Funcion que carga un ron en base al id
+	 * @param id_rol
+	 * @return Rol rol
+	 */
 	public static Rol cargarRol(int id_rol) {
 		Rol rol = new Rol();
 		try {

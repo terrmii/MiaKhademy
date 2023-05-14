@@ -6,6 +6,13 @@ import java.sql.ResultSet;
 import modelo.DTO.Usuario;
 
 public class ModeloUsuario {
+	
+	/**
+	 * Funcion que verifica la existencia de un usuario en la bbdd
+	 * @param nombreUsuario
+	 * @param contrasenia
+	 * @return Usuario user
+	 */
 	public static Usuario verificarUsuario(String nombreUsuario, String contrasenia) {
 		Usuario user = new Usuario();
 		String consulta = "select * from usuarios where nombre_usuario=? and contrasenia=?";

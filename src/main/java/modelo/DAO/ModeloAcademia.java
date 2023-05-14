@@ -7,7 +7,10 @@ import java.util.ArrayList;
 import modelo.DTO.Academia;
 
 public class ModeloAcademia {
-
+	/**
+	 * Funión que recoge todas las academias de la BBDD
+	 * @return ArrayList<Academia>
+	 */
 	public static ArrayList<Academia> cargarAcademias() {
 
 		ArrayList<Academia> academias = new ArrayList<Academia>();
@@ -31,7 +34,12 @@ public class ModeloAcademia {
 
 		return academias;
 	}
-
+	
+	/**
+	 * Carga una academia en particular segun su id
+	 * @param String id (codigo de la academia)
+	 * @return Academia
+	 */
 	public static Academia cargarAcademia(String id) {
 		Academia academia = new Academia();
 
@@ -51,6 +59,10 @@ public class ModeloAcademia {
 		return academia;
 	}
 
+	/**
+	 * Funcion que elimina una academia de la BBDD segun el codigo que le pasas
+	 * @param String cod_academia
+	 */
 	public static void eliminarAcademia(String cod_academia) {
 		Conector.conectarMysql();
 
@@ -65,6 +77,10 @@ public class ModeloAcademia {
 		}
 	}
 
+	/**
+	 * Funcion que modifica una academia
+	 * @param Academia academia
+	 */
 	public static void modificarAcademia(Academia academia) {
 		try {
 			String statement1 = "update academias set director=?, num_telefono=? ";
@@ -80,6 +96,10 @@ public class ModeloAcademia {
 		}
 	}
 
+	/**
+	 * Funcion que inserta una academia nueva en la BBDD
+	 * @param Academia academia
+	 */
 	public static void insertarAcademia(Academia academia) {
 		try {
 			PreparedStatement st = Conector.conexion.prepareStatement("INSERT INTO academias VALUES (?,?,?)");

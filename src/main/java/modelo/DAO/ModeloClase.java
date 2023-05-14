@@ -49,6 +49,11 @@ public class ModeloClase {
 		return clases;
 	}
 
+	/**
+	 * Funcion que elimina una clase de la base de datos
+	 * @param String num_clase
+	 * @param String codigo_academia
+	 */
 	public static void eliminarClase(String num_clase, String codigo_academia) {
 		String sql = "delete from clases where num_clase=? and codigo_academia=?";
 		try {
@@ -60,6 +65,10 @@ public class ModeloClase {
 		}
 	}
 
+	/**
+	 * Funcion que inserta clase
+	 * @param Clase clase
+	 */
 	public static void insertarClase(Clase clase) {
 		try {
 			PreparedStatement st = Conector.conexion.prepareStatement("insert into clases values (?,?,?)");

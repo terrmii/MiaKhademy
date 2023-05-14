@@ -8,6 +8,11 @@ import java.util.ArrayList;
 import modelo.DTO.Idioma;
 
 public class ModeloIdioma {
+	
+	/**
+	 * Funcion que carga todos los idiomas de la bbdd
+	 * @return ArrayList<Idiomas>
+	 */
 	public static ArrayList<Idioma> cargarIdiomas() {
 		ArrayList<Idioma> idiomas = new ArrayList<Idioma>();
 
@@ -25,6 +30,11 @@ public class ModeloIdioma {
 		return idiomas;
 	}
 
+	/**
+	 * Funcion para cargar un idioma concreto
+	 * @param String codigo_idioma
+	 * @return Idioma idioma
+	 */
 	public static Idioma cargarIdioma(String codigo_idioma) {
 		Idioma idio = new Idioma();
 		
@@ -48,6 +58,10 @@ public class ModeloIdioma {
 		return idio;
 	}
 	
+	/**
+	 * Funcion que inserta un idioma en la bbdd
+	 * @param Idioma idioma
+	 */
 	public static void insertarIdioma(Idioma idioma) {
 		try {
 			PreparedStatement st = Conector.conexion
@@ -60,6 +74,10 @@ public class ModeloIdioma {
 		}
 	}
 
+	/**
+	 * Funcion que elimina un idioma de la bbdd
+	 * @param id
+	 */
 	public static void eliminarIdioma(String id) {
 		try {
 			PreparedStatement st = Conector.conexion.prepareStatement("delete from idiomas where codigo=?");

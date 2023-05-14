@@ -7,6 +7,11 @@ import java.util.ArrayList;
 import modelo.DTO.Profesor;
 
 public class ModeloProfesor {
+	
+	/**
+	 * Funcion que carga todos los profesores de la bbdd
+	 * @return ArrayList<Profesor>
+	 */
 	public static ArrayList<Profesor> cargarProfesores() {
 		ArrayList<Profesor> profesores = new ArrayList<Profesor>();
 
@@ -31,6 +36,11 @@ public class ModeloProfesor {
 		return profesores;
 	}
 
+	/**
+	 * Funcion que carga un profesor en concreto de la bbdd
+	 * @param String id
+	 * @return Profesor prof
+	 */
 	public static Profesor cargarProfesor(String id) {
 		Profesor prof = new Profesor();
 		try {
@@ -49,6 +59,10 @@ public class ModeloProfesor {
 		return prof;
 	}
 
+	/**
+	 * Funcion que inserta un profesor en la bbdd
+	 * @param profe
+	 */
 	public static void insertarProfesor(Profesor profe) {
 		String consulta = "insert into profesores (dni,nombre_apellido,num_telefono,titulacion_idioma) values (?,?,?,?)";
 		try {
@@ -65,6 +79,10 @@ public class ModeloProfesor {
 		}
 	}
 
+	/**
+	 * Funcion que elimina un profesor de la bbdd segun su dni
+	 * @param dni
+	 */
 	public static void eliminarProfesor(String dni) {
 		String consulta = "delete from profesores where dni=?";
 		try {
@@ -76,6 +94,10 @@ public class ModeloProfesor {
 		}
 	}
 
+	/**
+	 * funcion que modifica un profesor de la bbdd
+	 * @param profesor
+	 */
 	public static void modificarProfesor(Profesor profesor) {
 		String consulta = "update profesores set nombre_apellido=?,num_telefono=?,titulacion_idioma=? where dni=?";
 		try {
