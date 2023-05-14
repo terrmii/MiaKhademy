@@ -59,7 +59,7 @@ public class Conector {
 	}
 
 	/*
-	 * Función para cerrar la conexión a la base de datos mysql
+	 * Funcion para cerrar la conexión a la base de datos mysql
 	 */
 	public static void cerrarConexión() {
 		try {

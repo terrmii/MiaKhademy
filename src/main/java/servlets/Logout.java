@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import modelo.DAO.Conector;
 
 /**
- * Servlet que controla el cierre de la sesión
+ * Servlet que controla el cierre de la sesion
  */
 public class Logout extends HttpServlet {
 	private static final long serialVersionUID = 1L;

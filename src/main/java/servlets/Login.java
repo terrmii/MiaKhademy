@@ -13,7 +13,7 @@ import modelo.DAO.ModeloUsuario;
 import modelo.DTO.Usuario;
 
 /**
- * Servlet que controla el logeo a la aplicación
+ * Servlet que controla el logeo a la aplicacion
  */
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
