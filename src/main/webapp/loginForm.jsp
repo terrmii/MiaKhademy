@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,8 +41,8 @@
                                 <input type="text" class="form-control" placeholder="Usuario" name="username">
                             </div>
                             <div class="form-group password textologin">
-                                <input type="Password" class="form-control" placeholder="Contraseña" name ="password">
-                                <a href="#!" class="forgot-password" id="style-2" data-replace="+34 943567854"><span>¿No la recuerda?</span></a>
+                                <input type="Password" class="form-control" placeholder="ContraseÃ±a" name ="password">
+                                <a href="#!" class="forgot-password" id="style-2" data-replace="+34 943567854"><span>Â¿No la recuerda?</span></a>
                             </div>
 							<div class="form-group login">
 								<input type="submit" class="btn btn-primary btn-block"
@@ -67,7 +67,7 @@
                                         <!-- Slider de alumnos -->
                                         <img src="img/login/icons8-student-64.png" alt="">
                                         <h3 class="slider-title">Zona Alumnos</h3>
-                                        <p class="slider-description">Acceda a la zona del alumnado con su nombre de usuario y contraseña para poder ver los horarios pertinentes y profesorado en cuestión.</p>
+                                        <p class="slider-description">Acceda a la zona del alumnado con su nombre de usuario y contraseÃ±a para poder ver los horarios pertinentes y profesorado en cuestiÃ³n.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">

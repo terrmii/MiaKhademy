@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +34,7 @@
 					<img src="./img/logo/logo-no-background.png" alt="" width="150" style="top: 0;">
 				</a>
 
-				<!-- Boton pantalla pequeña -->
+				<!-- Boton pantalla pequeÃ±a -->
 				<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar1" aria-controls="myNavbar1" aria-expanded="false" aria-label="Toggle navigation"> 
 				<span class="navbar-toggler-icon"></span>
 				</button>
@@ -56,7 +56,7 @@
 
 						<!-- Link quienes somos -->
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
-							<a href="quienessomos.jsp" class="nav-link ">¿Quienes somos?</a>
+							<a href="quienessomos.jsp" class="nav-link ">Â¿Quienes somos?</a>
 						</li>
 
 						<!-- Link contacto -->
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="email" type="text" placeholder="Correo Electrónico" class="form-control">
+                                        <input id="email" type="text" placeholder="Correo ElectrÃ³nico" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -132,7 +132,7 @@
                     </div>
                     <div class="contact-name">
                         <h5>Visita la academia</h5>
-                        <p>Av. de la Zurriola, 3, <br>20002 San Sebastián, Gipuzkoa</p>
+                        <p>Av. de la Zurriola, 3, <br>20002 San SebastiÃ¡n, Gipuzkoa</p>
                     </div>
                     <div class="contact-name">
                         <h5>Telefono</h5>
@@ -188,7 +188,7 @@
         <!-- Link quienes somos -->
         <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
-            <a href="quienessomos.jsp" class="text-white" style="text-decoration: none;">¿Quienes somos?</a>
+            <a href="quienessomos.jsp" class="text-white" style="text-decoration: none;">Â¿Quienes somos?</a>
           </h6>
         </div>
 
@@ -259,7 +259,7 @@
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
 
     <a class="text-white" href="Inicio" style="text-decoration: none;">
-      © 2023 Copyright: MiaKhademy.com</a>
+      Â© 2023 Copyright: MiaKhademy.com</a>
   </div>
   <!-------------- Fin Copyright -------------->
 

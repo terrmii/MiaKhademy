@@ -98,7 +98,7 @@
 				<!-- 1er parrafo -->
 				<div class="lc-block mb-5">
 					<div>
-						<p><strong>¡Bienvenidos a Mia<b style = "color: #3C2A21">Khademy</b>, la academia de idiomas líder en el mercado! En nuestra academia, creemos que aprender un nuevo idioma puede ser una experiencia enriquecedora que no solo abre puertas para nuevas oportunidades laborales, sino que también permite a las personas conectarse con otras culturas y expandir sus horizontes.&nbsp;</strong></p>
+						<p><strong>¡Bienvenidos a Mia<span style = "color: #3C2A21">Khademy</span>, la academia de idiomas líder en el mercado! En nuestra academia, creemos que aprender un nuevo idioma puede ser una experiencia enriquecedora que no solo abre puertas para nuevas oportunidades laborales, sino que también permite a las personas conectarse con otras culturas y expandir sus horizontes.&nbsp;</strong></p>
 					</div>
 				</div>
 				<!-- 2do parrafo -->

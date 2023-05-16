@@ -1,12 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MiaKhademia | ¿Quienes somos?</title>
+<title>MiaKhademia | Â¿Quienes somos?</title>
 <link rel="shortcut icon" href="./img/logo/icono.png" type="image/x-icon">
 
  <!-- Iconos -->
@@ -32,7 +32,7 @@
             <img src="img/logo/logo-no-background.png" alt="" width="150" style="top: 0;">
           </a>
   
-          <!-- Boton pantalla pequeña -->
+          <!-- Boton pantalla pequeÃ±a -->
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar1" aria-controls="myNavbar1" aria-expanded="false" aria-label="Toggle navigation"> 
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -54,7 +54,7 @@
   
               <!-- Link quienes somos -->
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738 fw-bold">
-                <a href="quienessomos.jsp" class="nav-link ">¿Quienes somos?</a>
+                <a href="quienessomos.jsp" class="nav-link ">Â¿Quienes somos?</a>
               </li>
   
               <!-- Link contacto -->
@@ -101,7 +101,7 @@
                                     </div>
                                 </div>
 
-								<!-- Foto niña estudiando -->
+								<!-- Foto niÃ±a estudiando -->
                                 <div class="col-lg-12 col-md-12 mt-4 pt-2">
                                     <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
                                         <img src="img/quienessomos/alumnaenaccion.jpg" class="img-fluid" alt="Image" />
@@ -161,8 +161,8 @@
             <div class="col-lg-7 align-self-center">
               <div class="lc-block drop_caps_1">
                 <div>
-                  <p>Desde nuestra fundación, en MiaKhademy nos hemos destacado por ofrecer un enfoque educativo personalizado y flexible que se adapte a las necesidades de nuestros estudiantes. Ofreciendo una amplia gama de idiomas y con un equipo de profesionales altamente calificados, hemos conseguido convertirnos en una referencia en la enseñanza de idiomas.</p>
-                  <p>Los programas de enseñanza están diseñados para ofrecer una experiencia de aprendizaje dinámica e interactiva, combinando tecnología y métodos pedagógicos tradicionales para que los estudiantes puedan aprender a su propio ritmo y de manera efectiva. Además, nuestra academia cuenta con una plataforma en línea donde los estudiantes pueden acceder a recursos educativos y mantenerse en contacto con sus profesores. Todo esto se traduce en una experiencia educativa enriquecedora y emocionante que permite a los estudiantes alcanzar sus objetivos personales y profesionales con éxito.&nbsp;</p>
+                  <p>Desde nuestra fundaciÃ³n, en MiaKhademy nos hemos destacado por ofrecer un enfoque educativo personalizado y flexible que se adapte a las necesidades de nuestros estudiantes. Ofreciendo una amplia gama de idiomas y con un equipo de profesionales altamente calificados, hemos conseguido convertirnos en una referencia en la enseÃ±anza de idiomas.</p>
+                  <p>Los programas de enseÃ±anza estÃ¡n diseÃ±ados para ofrecer una experiencia de aprendizaje dinÃ¡mica e interactiva, combinando tecnologÃ­a y mÃ©todos pedagÃ³gicos tradicionales para que los estudiantes puedan aprender a su propio ritmo y de manera efectiva. AdemÃ¡s, nuestra academia cuenta con una plataforma en lÃ­nea donde los estudiantes pueden acceder a recursos educativos y mantenerse en contacto con sus profesores. Todo esto se traduce en una experiencia educativa enriquecedora y emocionante que permite a los estudiantes alcanzar sus objetivos personales y profesionales con Ã©xito.&nbsp;</p>
                 </div>
               </div>
             </div>
@@ -180,12 +180,12 @@
             <div class="col-md-8 offset-md-2 px-4">
               <div class="lc-block mb-4">
                 <div>
-                  <h2>"La educación es el arma más poderosa que puedes usar para cambiar el mundo."</h2>
+                  <h2>"La educaciÃ³n es el arma mÃ¡s poderosa que puedes usar para cambiar el mundo."</h2>
                 </div>
               </div>
               <div class="lc-block mb-4">
                 <div>
-                  <p>La frase ha sido ampliamente difundida y popularizada por su mensaje poderoso y optimista, que inspira a las personas a creer en el poder del conocimiento y la educación para crear un cambio positivo en el mundo.&nbsp;</p>
+                  <p>La frase ha sido ampliamente difundida y popularizada por su mensaje poderoso y optimista, que inspira a las personas a creer en el poder del conocimiento y la educaciÃ³n para crear un cambio positivo en el mundo.&nbsp;</p>
                 </div>
               </div>
               <div class="lc-block" style="letter-spacing:5px">
@@ -234,7 +234,7 @@
                 <!-- Link quienes somos -->
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <a href="quienessomos.jsp" class="text-white" style="text-decoration: none;">¿Quienes somos?</a>
+                    <a href="quienessomos.jsp" class="text-white" style="text-decoration: none;">Â¿Quienes somos?</a>
                   </h6>
                 </div>
 
@@ -305,7 +305,7 @@
           <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
 
             <a class="text-white" href="Inicio" style="text-decoration: none;">
-              © 2023 Copyright: MiaKhademy.com</a>
+              Â© 2023 Copyright: MiaKhademy.com</a>
           </div>
           <!-------------- Fin Copyright -------------->
 
